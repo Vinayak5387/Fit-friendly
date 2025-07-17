@@ -7,6 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: [
+          'SF Pro Display',
+          'SF Pro Text',
+          'SF UI Display',
+          'SF UI Text',
+          'San Francisco',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Helvetica Neue',
+          'Arial',
+          'sans-serif',
+        ],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

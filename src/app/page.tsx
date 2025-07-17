@@ -48,7 +48,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-off-white to-gray-50">
+    <div className="min-h-screen bg-white font-sans">
       <Navbar />
       <main className="flex-1 py-12 sm:py-16">
       <div className="relative py-3 sm:max-w-6xl sm:mx-auto">
@@ -62,13 +62,13 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">
   Fitness with comfort at home
 </h2>
-            <div className="inline-flex items-center justify-center bg-gradient-to-r from-green-500 to-green-600 text-white font-bold py-3 px-6 rounded-full mb-6 shadow-lg">
+            <div className="inline-flex items-center justify-center bg-gradient-to-r from-green-500 to-green-600 text-white font-bold py-3 px-6 rounded-full mb-6 shadow-lg mx-3">
               <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span className="text-xl">100% Money Back Guarantee*</span>
             </div>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-">
               Get your daily dose of fitness at home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -185,7 +185,7 @@ export default function Home() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors placeholder-gray-300 text-gray-800"
                     placeholder="Enter your first name"
                   />
                 </div>
@@ -197,7 +197,7 @@ export default function Home() {
                     value={formData.lastName}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors placeholder-gray-300 text-gray-800"
                     placeholder="Enter your last name"
                   />
                 </div>
@@ -211,7 +211,7 @@ export default function Home() {
                   value={formData.phoneNumber}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors placeholder-gray-300 text-gray-800"
                   placeholder="Enter your phone number"
                 />
               </div>
@@ -227,7 +227,7 @@ export default function Home() {
                     required
                     min="1"
                     max="100"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors placeholder-gray-300 text-gray-800"
                     placeholder="Enter your age"
                   />
                 </div>
@@ -239,7 +239,7 @@ export default function Home() {
                     value={formData.city}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors placeholder-gray-300 text-gray-800"
                     placeholder="Enter your city"
                   />
                 </div>
@@ -256,7 +256,7 @@ export default function Home() {
                     required
                     min="1"
                     max="300"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors placeholder-gray-300 text-gray-800"
                     placeholder="Enter your height in cm"
                   />
                 </div>
@@ -270,7 +270,7 @@ export default function Home() {
                     required
                     min="1"
                     max="500"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors placeholder-gray-300 text-gray-800"
                     placeholder="Enter your weight in kg"
                   />
                 </div>
