@@ -55,9 +55,9 @@ export default function Home() {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <div className="mb-6">
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-red-500 via-red-600 to-red-700 bg-clip-text text-transparent mb-4 font-semibold">
-                FIT FRIENDLY
-            </h1>
+            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 bg-clip-text text-transparent mb-4 font-semibold">
+  FIT FRIENDLY
+</h1>
 
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">
   Fitness with comfort at home
@@ -72,12 +72,12 @@ export default function Home() {
               Get your daily dose of fitness at home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a
+             <a
   href="#register"
-  className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 hover:from-red-600 hover:via-red-700 hover:to-red-800 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-md hover:shadow-xl transform hover:scale-105"
->
+  className="bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 hover:from-orange-500 hover:via-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-md hover:shadow-xl transform hover:scale-105">
   Start Your Journey
 </a>
+
 
               <a
                 href="https://wa.me/message/XTWWCIVN2JFBG1"
@@ -166,11 +166,12 @@ export default function Home() {
           {/* Right Side - Registration Form */}
           <div id="register" className="bg-white rounded-2xl shadow-xl p-8 border-2 border-blue-100">
             <div className="text-center mb-6">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-red-500 via-red-600 to-red-700 hover:from-red-600 hover:via-red-700 hover:to-red-800 rounded-full mb-4 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-xl">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 hover:from-orange-500 hover:via-orange-600 hover:to-orange-700 rounded-full mb-4 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-xl">
   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
   </svg>
 </div>
+
 
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Start Your Transformation</h2>
               <p className="text-gray-600">Fill out the form below to begin your fitness journey</p>
@@ -190,7 +191,7 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">Preferred Language</label>
                   <input
                     type="text"
                     name="lastName"
@@ -198,7 +199,7 @@ export default function Home() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors placeholder-gray-300 text-gray-800"
-                    placeholder="Enter your last name"
+                    placeholder="Enter your preferred language "
                   />
                 </div>
               </div>
