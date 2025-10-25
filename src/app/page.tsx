@@ -150,7 +150,7 @@ export default function Home() {
             
             <div className="mt-8 text-center">
               <a
-                href="https://wa.me/message/XTWWCIVN2JFBG1"
+                href="https://wa.me/qr/N5L2UJ63ONFFF1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition-colors duration-200 shadow-lg"
