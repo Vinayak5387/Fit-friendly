@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* CTA Button - Enhanced */}
           <div className="hidden md:block">
             <a
-              href="https://wa.me/message/XTWWCIVN2JFBG1"
+              href="https://wa.me/qr/N5L2UJ63ONFFF1"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center space-x-2 group"
